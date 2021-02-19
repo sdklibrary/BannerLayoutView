@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerLayoutView">
+        <!--是否自动轮播-->
+        <attr name="bannerAutoPlay" format="boolean" />
+        <!--是否循环-->
+        <attr name="bannerLooper" format="boolean" />
+        <!--轮播时间-->
+        <attr name="bannerTimeScroll" format="integer" />
+        <!--轮播间隔时间-->
+        <attr name="bannerTimeInterval" format="integer" />
+        <attr name="bannerOrientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
